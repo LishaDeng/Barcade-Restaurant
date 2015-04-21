@@ -1,0 +1,250 @@
+body {
+  margin:0;
+  width:100%;
+}
+
+.allcontainer{
+  width:100%;
+  height:1600px;
+  background:#f1ede2;
+  padding-top:15px;
+}
+
+.heardermaincontainer{
+  width:98%;
+  height:1450px;
+  background:#000000;
+  margin:0 auto;
+}
+
+.header{
+  width:100%;
+  height: 400px;
+}
+
+.headercontainer{
+  background-image: url('image/tumblr_static_barcade2004_tumblr_header2.jpg');
+  background-size:cover;
+  height: 315px;
+}
+
+.navigationcotainer{
+  background-image: url('image/menu bar.png');
+  background-size:cover;
+  width: 85%;
+  height: 55px;
+  margin:0 auto;
+  position:relative;
+  top:25px;
+}
+
+.navigationTabs {
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+}
+
+.topNavButton {
+  text-align: center;
+  color: #FFF;
+  font-size: 15pt;
+  font-weight: bold;
+  font-family: "Candara", serif;
+  padding-left: 96px;
+  position: relative;
+  right: 0;
+  top: 5px;
+  cursor: pointer;
+}
+
+.topNavButton:hover{
+  color:#02ce02;
+}
+
+.main{
+  width: 85%;
+  height: 1000px;
+  margin:0 auto;
+  position:relative;
+}
+
+.whatOnTap{
+  width:30%;
+  height:900px;
+  position: absolute;
+  float: left;
+}
+
+.tapTitle{
+  color: #FFF;
+  font-size: 10pt;
+  font-weight: bold;
+  font-family: "Candara", serif;
+  position: relative;
+  top:10px;
+}
+
+.tapDate{
+  color: #FFF;
+  font-size: 10pt;
+  font-style:italic;
+  font-family: "Candara", serif;
+  position: relative;
+  top:10px;
+}
+
+.tapInfo{
+  width:100%;
+  position:relative;
+}
+
+.tapInfoaccess{
+  color: #FFF;
+  font-size: 13pt;
+  font-family: "Candara", serif;
+  Line-height: 35px;
+  position: relative;
+  top: 50px;
+  float: left;
+}
+
+.dontMiss{
+  width:35%;
+  height:900px;
+  left:34%;
+  position: absolute;
+  float: left;
+}
+
+.dontMissTitle{
+  color: #FFF;
+  font-size: 10pt;
+  font-family: "Corbel", serif;
+  top: 10px;
+  position: relative;
+  float: left;
+}
+
+.dontMissline{
+  height:2px;
+  width:100%;
+  background:#fff;
+  overflow:hidden;
+  position: relative;
+}
+
+.dontMissActivity1{
+  width:100%;
+  height:400px;
+  text-align:center;
+  position: relative;
+}
+
+.dontMissImage1{
+  background-image: url('image/JacksAbbyLaunch04-06-15SQR600.jpg');
+  background-size:cover;
+  height: 350px;
+  top:25px;
+  margin:10px;
+}
+
+.dontMissInfo1{
+  color: #FFF;
+  font-size: 11pt;
+  font-family: "Ebrima", serif;
+  margin:auto;
+  position: relative;
+}
+
+.dontMissActivity2{
+  width:100%;
+  height:525px;
+  text-align:center;
+  position: relative;
+}
+
+.dontMissImage2{
+  background-image: url('image/TwoRoadsBrewingLaunch04-08-15_600.jpg');
+  background-size:cover;
+  height: 470px;
+  top:25px;
+  margin:10px;
+}
+
+.dontMissInfo2{
+  color: #FFF;
+  font-size: 11pt;
+  font-family: "Ebrima", serif;
+  margin:auto;
+  position: relative;
+}
+
+.markCalendars{
+  width:25%;
+  height:900px;
+  left:74%;
+  position: relative;
+  float: left;
+}
+
+.markCalendarsContainer{
+  width:100%;
+  position: relative;
+}
+
+.markCalendarsTitle{
+  color: #FFF;
+  font-size: 10pt;
+  font-family: "Corbel", serif;
+  top: 10px;
+  position: relative;
+  float: left;
+}
+
+.markCalendarsline{
+  height:2px;
+  width:100%;
+  background:#fff;
+  overflow:hidden;
+  position: relative;
+}
+
+.Calendars{
+  background-image: url('image/Calendars.png');
+  background-size:cover;
+  height: 230px;
+  top:25px;
+  margin:10px;
+  position: relative;
+}
+
+.Poster{
+  background-image: url('image/BarcadePhillyLunchSpecial2.jpg');
+  background-size:cover;
+  height: 325px;
+  top:25px;
+  margin:10px;
+  position: relative;
+}
+
+.reservation{
+  height:300px;
+  width:100%;
+  position: relative;
+}
+
+.reservationTitle{
+  color: #FFF;
+  font-size: 10pt;
+  font-family: "Corbel", serif;
+  top: 20px;
+  position: relative;
+  float: left;
+}
+
+.reservationContainer{
+  width: 100%;
+  height: 300px;
+  background-color: #000000;
+  border: 1px #fff solid
+}
