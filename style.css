@@ -50,6 +50,7 @@ body {
   font-size: 15pt;
   font-weight: bold;
   font-family: "Candara", serif;
+  text-decoration:none;
   padding-left: 96px;
   position: relative;
   right: 0;
@@ -63,7 +64,7 @@ body {
 
 .main{
   width: 85%;
-  height: 1000px;
+  height: 1050px;
   margin:0 auto;
   position:relative;
 }
@@ -106,6 +107,20 @@ body {
   position: relative;
   top: 50px;
   float: left;
+}
+
+.moreButton{
+  color: #fee902;
+  font-size: 13pt;
+  font-family: "Arial", serif;
+  Line-height: 35px;
+  position: relative;
+  top: 190px;
+  float: right;
+}
+
+.moreButton:hover{
+  cursor: pointer;
 }
 
 .dontMiss{
@@ -197,8 +212,8 @@ body {
   font-size: 10pt;
   font-family: "Corbel", serif;
   top: 10px;
-  position: relative;
   float: left;
+  position: relative;
 }
 
 .markCalendarsline{
@@ -206,7 +221,6 @@ body {
   width:100%;
   background:#fff;
   overflow:hidden;
-  position: relative;
 }
 
 .Calendars{
@@ -215,7 +229,6 @@ body {
   height: 230px;
   top:25px;
   margin:10px;
-  position: relative;
 }
 
 .Poster{
@@ -224,7 +237,6 @@ body {
   height: 325px;
   top:25px;
   margin:10px;
-  position: relative;
 }
 
 .reservation{
@@ -238,13 +250,171 @@ body {
   font-size: 10pt;
   font-family: "Corbel", serif;
   top: 20px;
-  position: relative;
-  float: left;
 }
 
 .reservationContainer{
   width: 100%;
   height: 300px;
   background-color: #000000;
-  border: 1px #fff solid
+  border: 1px #fff solid;
+  position: relative;
+}
+
+.date{
+  width: 100%;
+  height: 60px;
+  margin-top: 25px;
+  position: relative;
+}
+
+.dateIcon{
+  background-image: url('image/dateIcon.png');
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  left: 16px;
+  position: absolute;
+}
+
+.dateContainer{
+  width: 62%;
+  height: 40px;
+  background-color: #000000;
+  border: 1px #fff solid;
+  left: 75px;
+  position: relative;
+}
+
+.time{
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.timeIcon{
+  background-image: url('image/timeIcon.png');
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  left: 16px;
+  position: absolute;
+}
+
+.timeContainer{
+  width: 62%;
+  height: 40px;
+  background-color: #000000;
+  border: 1px #fff solid;
+  left: 75px;
+  position: relative;
+}
+
+.people{
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+}
+
+.peopleIcon{
+  background-image: url('image/peopleIcon.png');
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  left: 16px;
+  position: absolute;
+}
+
+.peopleContainer{
+  width: 62%;
+  height: 40px;
+  background-color: #000000;
+  border: 1px #fff solid;
+  left: 75px;
+  position: relative;
+}
+
+.findTable{
+  width: 84%;
+  height: 60px;
+  margin:0 auto;
+}
+
+.findTableButton{
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 52px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  background-color: #fff;
+  color: #000000;
+  font-size: 15pt;
+  font-family: "Arial", serif;
+  font-weight: bold;
+  top: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.footerContainer{
+  width: 100%;
+  height: 150px;
+  position: relative;
+}
+
+.SocialMedia{
+  height: 60px;
+  width: 400px;
+  float: right;
+  position: relative;
+  right: 75px;
+  top: 20px;
+}
+
+.SocialMediaButton{
+  height: 50px;
+  margin: 10px;
+  position: relative;
+  top: -5px;
+  cursor: pointer;
+}
+
+.address{
+  font-size: 11pt;
+  font-family: "Euphemia", serif;
+  font-weight: bold;
+  height: 50px;
+  width: 800px;
+  float: left;
+  position: relative;
+  left: 10px;
+  top: 100px;
+}
+
+
+
+//** Food & Drink **//
+
+.menu{
+  width:35%;
+  height:900px;
+  left:34%;
+  position: absolute;
+  float: left;
+}
+
+.menuTitle{
+  color: #FFF;
+  font-size: 10pt;
+  font-family: "Corbel", serif;
+  top: 10px;
+  position: relative;
+  float: left;
+}
+
+.menuline{
+  height:2px;
+  width:100%;
+  background:#fff;
+  overflow:hidden;
+  position: relative;
 }
