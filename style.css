@@ -285,6 +285,76 @@ body {
   position: relative;
 }
 
+.datecontainer > .datedropdown {
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+.datedropdown {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 30px;
+  width: 161px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border: 1px solid;
+
+}
+
+.datedropdown:before, .datedropdown:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 9px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 5px dashed;
+  border-color: #fff transparent;
+  pointer-events: none;
+}
+
+.datedropdown:before {
+  border-bottom-style: solid;
+  border-top: none;
+}
+
+.datedropdown:after {
+  margin-top: 7px;
+  border-top-style: solid;
+  border-bottom: none;
+}
+
+.datedropdown-select {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 6px 8px 6px 10px;
+  height: 28px;
+  line-height: 14px;
+  font-size: 14px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0) !important;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.datedropdown-select:focus {
+  z-index: 3;
+  width: 100%;
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+.datedropdown-select > option {
+  margin: 3px;
+  padding: 6px 8px;
+  text-shadow: none;
+  background: #000000;
+  cursor: pointer;
+}
+
 .time{
   width: 100%;
   height: 60px;
@@ -309,6 +379,76 @@ body {
   position: relative;
 }
 
+.timecontainer > .timedropdown {
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+.timedropdown {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 30px;
+  width: 161px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border: 1px solid;
+
+}
+
+.timedropdown:before, .timedropdown:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 9px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 5px dashed;
+  border-color: #fff transparent;
+  pointer-events: none;
+}
+
+.timedropdown:before {
+  border-bottom-style: solid;
+  border-top: none;
+}
+
+.timedropdown:after {
+  margin-top: 7px;
+  border-top-style: solid;
+  border-bottom: none;
+}
+
+.timedropdown-select {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 6px 8px 6px 10px;
+  height: 28px;
+  line-height: 14px;
+  font-size: 14px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0) !important;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.timedropdown-select:focus {
+  z-index: 3;
+  width: 100%;
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+.timedropdown-select > option {
+  margin: 3px;
+  padding: 6px 8px;
+  text-shadow: none;
+  background: #000000;
+  cursor: pointer;
+}
+
 .people{
   width: 100%;
   height: 60px;
@@ -331,6 +471,76 @@ body {
   border: 1px #fff solid;
   left: 75px;
   position: relative;
+}
+
+.peoplecontainer > .peopledropdown {
+  margin: 0 20px;
+  vertical-align: top;
+}
+
+.peopledropdown {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 30px;
+  width: 161px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border: 1px solid;
+
+}
+
+.peopledropdown:before, .peopledropdown:after {
+  content: '';
+  position: absolute;
+  z-index: 2;
+  top: 9px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 5px dashed;
+  border-color: #fff transparent;
+  pointer-events: none;
+}
+
+.peopledropdown:before {
+  border-bottom-style: solid;
+  border-top: none;
+}
+
+.peopledropdown:after {
+  margin-top: 7px;
+  border-top-style: solid;
+  border-bottom: none;
+}
+
+.peopledropdown-select {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 6px 8px 6px 10px;
+  height: 28px;
+  line-height: 14px;
+  font-size: 14px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0) !important;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.peopledropdown-select:focus {
+  z-index: 3;
+  width: 100%;
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+.peopledropdown-select > option {
+  margin: 3px;
+  padding: 6px 8px;
+  text-shadow: none;
+  background: #000000;
+  cursor: pointer;
 }
 
 .findTable{
