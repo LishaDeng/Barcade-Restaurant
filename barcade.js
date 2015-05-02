@@ -1,8 +1,7 @@
-<script>
-  var foodList = document.getElementById('foodList');
-  var foodButton = document.getElementById('foodButton');
+  var foodList=document.getElementById('foodList');
+  var foodButton=document.getElementById('foodButton');
 
-  foodButton.addEventListener("click", function(){
+   foodButton.addEventListener("click", function(){
 
     if (foodList.hasAttribute("expanded")){
       foodList.removeAttribute("expanded");
@@ -10,5 +9,4 @@
       foodList.setAttribute("expanded", "true");
     }
 
-  });
-</script>
+  },false);
