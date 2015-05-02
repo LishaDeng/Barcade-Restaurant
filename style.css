@@ -71,7 +71,7 @@ body {
 
 .whatOnTap{
   width:30%;
-  height:900px;
+  height:1050px;
   position: absolute;
   float: left;
 }
@@ -125,7 +125,7 @@ body {
 
 .dontMiss{
   width:35%;
-  height:900px;
+  height:1050px;
   left:34%;
   position: absolute;
   float: left;
@@ -196,7 +196,7 @@ body {
 
 .markCalendars{
   width:25%;
-  height:900px;
+  height:1050px;
   left:74%;
   position: relative;
   float: left;
@@ -339,6 +339,7 @@ body {
   border: 0;
   border-radius: 0;
   -webkit-appearance: none;
+  outline: none;
 }
 
 .datedropdown-select:focus {
@@ -353,6 +354,12 @@ body {
   text-shadow: none;
   background: #000000;
   cursor: pointer;
+}
+
+.datedropdown-select > option:hover {
+  background-color:#fff;
+  background:none;
+  color:#000000;
 }
 
 .time{
@@ -433,6 +440,7 @@ body {
   border: 0;
   border-radius: 0;
   -webkit-appearance: none;
+  outline: none;
 }
 
 .timedropdown-select:focus {
@@ -447,6 +455,12 @@ body {
   text-shadow: none;
   background: #000000;
   cursor: pointer;
+}
+
+.timedropdown-select > option:hover {
+  background-color:#fff;
+  background:none;
+  color:#000000;
 }
 
 .people{
@@ -527,6 +541,7 @@ body {
   border: 0;
   border-radius: 0;
   -webkit-appearance: none;
+  outline: none;
 }
 
 .peopledropdown-select:focus {
@@ -541,6 +556,12 @@ body {
   text-shadow: none;
   background: #000000;
   cursor: pointer;
+}
+
+.peopledropdown-select > option:hover {
+  background-color:#fff;
+  background:none;
+  color:#000000;
 }
 
 .findTable{
@@ -602,12 +623,13 @@ body {
 
 
 
-//** Food & Drink **//
+
+/** Food & Drink **/
+
 
 .menu{
-  width:35%;
-  height:900px;
-  left:34%;
+  width:20%;
+  height:1050px;
   position: absolute;
   float: left;
 }
@@ -622,6 +644,62 @@ body {
 }
 
 .menuline{
+  height:2px;
+  width:100%;
+  background:#fff;
+  overflow:hidden;
+  position: relative;
+}
+
+
+
+.specials{
+  width:35%;
+  height:1050px;
+  left: 25%;
+  position: absolute;
+  float: left;
+}
+
+.specialsTitle{
+  color: #FFF;
+  font-size: 10pt;
+  font-family: "Corbel", serif;
+  top: 10px;
+  position: relative;
+  float: left;
+}
+
+.specialsline{
+  height:2px;
+  width:100%;
+  background:#fff;
+  overflow:hidden;
+  position: relative;
+}
+
+
+
+
+
+.whatOnTapInside{
+  width:35%;
+  height:1050px;
+  left: 65%;
+  position: absolute;
+  float: left;
+}
+
+.whatOnTapInsideTitle{
+  color: #FFF;
+  font-size: 10pt;
+  font-family: "Corbel", serif;
+  top: 10px;
+  position: relative;
+  float: left;
+}
+
+.whatOnTapInsideline{
   height:2px;
   width:100%;
   background:#fff;
