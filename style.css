@@ -692,13 +692,47 @@ body {
 }
 
 .foodList[expanded="true"]{
-  overflow:auto;
   width: 100%;
   height:360px;
   background-color: #000000;
   border: 1px #fff solid;
   position: relative;
 }
+
+.foodListContainer{
+  overflow:auto;
+  width: 98%;
+  height:360px;
+  position: relative;
+}
+
+.foodListGroup{
+  color: #000000;
+  background-color:#fff;
+  width: 90%;
+  height: 30px;
+  font-size: 13pt;
+  font-family: "Calibri", serif;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0 auto;
+  padding-left: 10px;
+  top:10px;
+  position: relative;
+}
+
+.foodListGroupInfoContainer{
+  width: 90%;
+  height: 280px;
+  color:#ffea00;
+  font-size: 12pt;
+  font-family: "Candara", serif;
+  overflow: auto;
+  margin: 0 auto;
+  top: 5px;
+  position: relative;
+}
+
 
 .drinkButton{
   color:#000000;
@@ -731,6 +765,40 @@ body {
   height:360px;
   background-color: #000000;
   border: 1px #fff solid;
+  position: relative;
+}
+
+.drinkListContainer{
+  overflow:auto;
+  width: 98%;
+  height:360px;
+  position: relative;
+}
+
+.drinkListGroup{
+  color: #000000;
+  background-color:#fff;
+  width: 90%;
+  height: 30px;
+  font-size: 13pt;
+  font-family: "Calibri", serif;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0 auto;
+  padding-left: 10px;
+  top:10px;
+  position: relative;
+}
+
+.drinkListGroupInfoContainer{
+  width: 90%;
+  height: 280px;
+  color:#ffea00;
+  font-size: 12pt;
+  font-family: "Candara", serif;
+  overflow: auto;
+  margin: 0 auto;
+  top: 5px;
   position: relative;
 }
 
@@ -767,6 +835,41 @@ body {
   border: 1px #fff solid;
   position: relative;
 }
+
+.specialsListContainer{
+  overflow:auto;
+  width: 98%;
+  height:360px;
+  position: relative;
+}
+
+.specialsListGroup{
+  color: #000000;
+  background-color:#fff;
+  width: 90%;
+  height: 30px;
+  font-size: 13pt;
+  font-family: "Calibri", serif;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0 auto;
+  padding-left: 10px;
+  top:10px;
+  position: relative;
+}
+
+.specialsListGroupInfoContainer{
+  width: 90%;
+  height: 110px;
+  color:#ffea00;
+  font-size: 12pt;
+  font-family: "Candara", serif;
+  overflow: auto;
+  margin: 0 auto;
+  top: 5px;
+  position: relative;
+}
+
 
 
 .specials{
@@ -880,7 +983,6 @@ body {
 }
 
 .whatOnTapInsideContainer{
-  overflow:auto;
   width: 100%;
   height:330px;
   background-color: #000000;
@@ -897,13 +999,25 @@ body {
   height: 30px;
   font-size: 12pt;
   font-family: "Calibri", serif;
-  font-weight: bold;
   line-height: 30px;
   margin: 0 auto;
   padding-left: 10px;
   top:10px;
   position: relative;
 }
+
+.whatOnTapInsideInfoContainer{
+  width: 90%;
+  height: 280px;
+  color:#fff;
+  font-size: 12pt;
+  font-family: "Candara", serif;
+  overflow: auto;
+  margin: 0 auto;
+  top: 15px;
+  position: relative;
+}
+
 
 .topFoodImageContainer{
   width: 100%;
@@ -973,4 +1087,20 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   cursor: pointer;
+}
+
+
+/**slider style**/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  width:12px;
+  background-color: #fff;
 }
