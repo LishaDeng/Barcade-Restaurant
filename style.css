@@ -1090,6 +1090,241 @@ body {
 }
 
 
+
+/**game page**/
+
+.GameList{
+  width:35%;
+  height:1050px;
+  position: absolute;
+  float: left;
+}
+
+.GameListSearch{
+  width: 100%;
+  height:50px;
+  background-color: #000000;
+  border: 1px #fff solid;
+  position: relative;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.GameListSearchText{
+  color:#fff;
+  width: 80%;
+  height: 30px;
+  font-size: 12pt;
+  font-family: "Corbel", serif;
+  padding-left: 15px;
+  padding-top: 20px;
+  position: absolute;
+}
+
+.GameListSearchIcon{
+  width: 11%;
+  background-image: url('image/searchIcon.jpg');
+  background-size: cover;
+  height: 40px;
+  left: 86%;
+  position: absolute;
+  margin:5px;
+}
+
+.GameListSearchIcon:hover{
+  background-image: url('image/searchIconHover.jpg');
+}
+
+.GameListInfo{
+  width: 100%;
+  height:300px;
+  background-color: #000000;
+  border: 1px #fff solid;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.GameListInfoTitleCotainer{
+  width: 100%;
+  height:30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.GameListInfoTitle{
+  color:#02ec02;
+  font-size: 22pt;
+  font-family: "Corbel", serif;
+  padding-left:25px;
+  float: left;
+  font-weight: bold;
+  position: relative;
+}
+
+.GameListInfoMenuCotainer{
+  width: 100%;
+  height:260px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.GameListInfoMenu{
+  color: #fff;
+  font-size: 13pt;
+  font-family: "Corbel", serif;
+  padding-left: 25px;
+  float: left;
+  position: relative;
+  margin-right: 33px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.GameListInfoMoreButton{
+  color: #fee902;
+  font-size: 13pt;
+  font-family: "Arial", serif;
+  position: relative;
+  margin: 15px;
+  top: 15px;
+  float: right;
+}
+
+.HignScoresList{
+  width: 100%;
+  height:600px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.HignScoresListTitle{
+  color: #FFF;
+  font-size: 10pt;
+  font-family: "Corbel", serif;
+  top: 10px;
+  float: left;
+}
+
+.HignScoresListline{
+  height:2px;
+  width:100%;
+  background:#fff;
+  overflow:hidden;
+}
+
+.HignScoresListInfoContainer{
+  height:515px;
+  width:100%;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.HignScoresListInfo{
+  height:140px;
+  width:100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.HignScoresListInfoImage1{
+  width: 30%;
+  background-image: url('image/ArkanoidCover.jpg');
+  background-size: cover;
+  height: 139px;
+  position: absolute;
+}
+
+.HignScoresListInfoImage2{
+  width: 30%;
+  background-image: url('image/Asteroids_Cabaret_1979_500.jpg');
+  background-size: cover;
+  height: 139px;
+  position: absolute;
+}
+
+.HignScoresListInfoImage3{
+  width: 30%;
+  background-image: url('image/Centipede2_1981_500.jpg');
+  background-size: cover;
+  height: 139px;
+  position: absolute;
+}
+
+.HignScoresListInfoIntro{
+  width: 34%;
+  height: 140px;
+  left:35%;
+  float:left;
+  color:#fff;
+  font-size: 12pt;
+  font-family: "Estrangelo Edessa", serif;
+  position: absolute;
+}
+
+.HignScoresListInfoButton{
+  width: 34%;
+  height: 30px;
+  float:right;
+  color:#fff;
+  background-color:#02ce02;
+  font-size: 12pt;
+  font-family: "Corbel", serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  text-decoration:none;
+}
+
+.HignScoresMoreButton{
+  color: #fee902;
+  font-size: 13pt;
+  font-family: "Arial", serif;
+  Line-height: 35px;
+  position: relative;
+  float: right;
+}
+
+.Games{
+  width:60%;
+  height:1050px;
+  left: 40%;
+  position: absolute;
+  float: left;
+}
+
+.GamesTitle{
+  color: #FFF;
+  font-size: 10pt;
+  font-family: "Corbel", serif;
+  top: 10px;
+  position: relative;
+  float: left;
+}
+
+.Gamesline{
+  height:2px;
+  width:100%;
+  background:#fff;
+  overflow:hidden;
+  position: relative;
+}
+
+.GamesContainer{
+  width:100%;
+  height:950px;
+  background-image: url('image/games.jpg');
+  background-size: cover;
+  position: relative;
+  top:10px;
+}
+
+
+
 /**slider style**/
 ::-webkit-scrollbar {
   width: 5px;
