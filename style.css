@@ -626,6 +626,15 @@ body {
 
 /** Food & Drink **/
 
+.mainInfo{
+  width:100%;
+  height:980px;
+}
+
+.downloadMenu{
+  width:100%;
+  height:70px;
+}
 
 .menu{
   width:25%;
@@ -825,6 +834,7 @@ body {
   position: relative;
   margin-top: 20px;
   text-decoration:underline;
+  cursor: pointer;
 }
 
 .LunchSpecialInfo{
@@ -867,4 +877,100 @@ body {
   background:#fff;
   overflow:hidden;
   position: relative;
+}
+
+.whatOnTapInsideContainer{
+  overflow:auto;
+  width: 100%;
+  height:330px;
+  background-color: #000000;
+  border: 1px #fff solid;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.whatOnTapInsideDate{
+  color: #000000;
+  background-color:#fff;
+  width: 94%;
+  height: 30px;
+  font-size: 12pt;
+  font-family: "Calibri", serif;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0 auto;
+  padding-left: 10px;
+  top:10px;
+  position: relative;
+}
+
+.topFoodImageContainer{
+  width: 100%;
+  height: 555px;
+}
+
+.topFoodImage{
+  background-color:#fff;
+  width: 100%;
+  height: 170px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.topFoodImage .topFoodImage1{
+  background-image: url('image/IMG_8951_FancyItalian600.jpg');
+  background-size: cover;
+  height: 170px;
+}
+
+.topFoodImage1{
+  width: 255px;
+  margin: 0 auto;
+}
+
+.topFoodImage .topFoodImage2{
+  background-image: url('image/IMG_8957_SeitansOwn600.jpg');
+  background-size: cover;
+  height: 170px;
+}
+
+.topFoodImage2{
+  width: 255px;
+  margin: 0 auto;
+}
+
+.topFoodImage .topFoodImage3{
+  background-image: url('image/IMG_8985_TheDude.jpg');
+  background-size: cover;
+  height: 170px;
+}
+
+.topFoodImage3{
+  width: 255px;
+  margin: 0 auto;
+}
+
+.downloadMenuline{
+  height:2px;
+  width:100%;
+  background:#fff;
+  overflow:hidden;
+  position: relative;
+  top: 15px;
+}
+
+.downloadMenuButton{
+  color: #02ce02;
+  width: 100%;
+  height: 40px;
+  font-size: 16pt;
+  font-family: "Corbel", serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
