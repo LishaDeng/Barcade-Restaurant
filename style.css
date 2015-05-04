@@ -1325,6 +1325,100 @@ body {
 
 
 
+
+/**games description**/
+
+.GamesDescription{
+  width:60%;
+  height:1050px;
+  left: 40%;
+  position: absolute;
+  float: left;
+}
+
+.GamesDescriptionTitle{
+  color: #FFF;
+  font-size: 10pt;
+  font-family: "Corbel", serif;
+  top: 10px;
+  position: relative;
+  float: left;
+}
+
+.GamesDescriptionContainer{
+  width:100%;
+  height:950px;
+  background-size: cover;
+  position: relative;
+  top:10px;
+}
+
+.GamesDescriptionIntroduction{
+  width:100%;
+  height:400px;
+  position: relative;
+  top:10px;
+}
+
+.GamesDescriptionImage{
+  width: 45%;
+  height: 370px;
+  background-image: url('image/Asteroids_Cabaret_1979_500.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 10px;
+}
+
+.GamesDescriptionInfo{
+  width: 50%;
+  left:50%;
+  height: 370px;
+  position: absolute;
+  color:#fff;
+  font-size: 16pt;
+  font-family: "Corbel", serif;
+}
+
+.GamesDescriptionVideo{
+  width:100%;
+  height:500px;
+  position: relative;
+  top:50px;
+}
+
+.GamesDescriptionVideoImage{
+  width: 85%;
+  height: 370px;
+  background-image: url('image/videoImage.jpg');
+  background-size: cover;
+  border: 15px solid #fff;
+  position: relative;
+  Line-height: 370px;
+  margin: 35px;
+}
+
+.GamesDescriptionVideoButton{
+  width: 20%;
+  height: 108px;
+  background-image: url('image/video_n.png');
+  background-size: cover;
+  position: relative;
+  Line-height: 370px;
+  margin: 120px;
+  left: 15%;
+}
+
+.GamesDescriptionVideoButton:hover{
+  background-image: url('image/video_h.png');
+  cursor: pointer;
+}
+
+.GamesDescriptionVideoMoreContainer{
+  width:100%;
+  height:50px;
+}
+
+
 /**slider style**/
 ::-webkit-scrollbar {
   width: 5px;
