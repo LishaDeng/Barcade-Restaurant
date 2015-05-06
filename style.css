@@ -1605,7 +1605,51 @@ body {
 
 .SeeMoreButton:hover{
   background-image: url('image/SeeMoreButton_h.png');
+  background-size: cover;
 }
+
+
+
+/**directions**/
+
+.directions{
+  width:100%;
+  height:1050px;
+  position: relative;
+}
+
+.outViewPicture{
+  width: 100%;
+  height: 400px;
+  background-image: url('image/17088638081_6e189948b4_o.jpg');
+  background-size: cover;
+  position: relative;
+  top:20px;
+}
+
+.directionsInfo{
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  font-size: 16pt;
+  font-family: "Candara", serif;
+  font-weight: bold;
+  margin-top:65px;
+}
+
+.Yellow{
+  color:#02ce02;
+}
+
+.googlemapContainer{
+  width: 100%;
+  height:400px;
+  position: relative;
+  margin:0 auto;
+  text-align: center;
+  margin-top:30px;
+}
+
 
 
 /**slider style**/
