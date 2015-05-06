@@ -1477,6 +1477,137 @@ body {
 
 
 
+
+/**High Scores**/
+
+.HighScores{
+  width:60%;
+  height:1050px;
+  left: 40%;
+  position: absolute;
+  float: left;
+}
+
+.HighScoresTitle{
+  color: #FFF;
+  font-size: 10pt;
+  font-family: "Corbel", serif;
+  top: 10px;
+  position: relative;
+  float: left;
+}
+
+.HighScoresline{
+  height:2px;
+  width:100%;
+  background:#fff;
+  overflow:hidden;
+  position: relative;
+}
+
+.HighScoresDetailContainer{
+  width: 96%;
+  height: 950px;
+  position: relative;
+  top: 10px;
+  margin: 0 auto;
+}
+
+.HignScoresDetailListInfo{
+  height:200px;
+  width:100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.HignScoresDetailListInfoImage1{
+  width: 24%;
+  background-image: url('image/ArkanoidCover.jpg');
+  background-size: cover;
+  height: 190px;
+  position: absolute;
+}
+
+.HignScoresDetailListInfoImage2{
+  width: 24%;
+  background-image: url('image/Asteroids_Cabaret_1979_500.jpg');
+  background-size: cover;
+  height: 190px;
+  position: absolute;
+}
+
+.HignScoresDetailListInfoImage3{
+  width: 24%;
+  background-image: url('image/Centipede2_1981_500.jpg');
+  background-size: cover;
+  height: 190px;
+  position: absolute;
+}
+
+.HignScoresDetailListInfoImage4{
+  width: 24%;
+  background-image: url('image/BubbleBobble_1986_500.jpg');
+  background-size: cover;
+  height: 190px;
+  position: absolute;
+}
+
+.HignScoresDetailListInfoIntro{
+  width: 34%;
+  height: 140px;
+  left:30%;
+  float:left;
+  color:#fff;
+  font-size: 17pt;
+  font-family: "Estrangelo Edessa", serif;
+  position: absolute;
+}
+
+.HignScoresDetailListInfoButtonContainer{
+  width: 30%;
+  float: right;
+  height: 120px;
+}
+
+.HignScoresDetailListInfoButton{
+  width: 100%;
+  height: 40px;
+  float: right;
+  margin-bottom: 15px;
+  color: #fff;
+  background-color: #02ce02;
+  font-size: 14pt;
+  font-family: "Corbel", serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.SeeMoreButtonContainer{
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  position:relative;
+  top:10px;
+}
+
+.SeeMoreButton{
+  width: 40px;
+  height: 20px;
+  background-image: url('image/SeeMoreButton.png');
+  background-size: cover;
+  margin: 0 auto;
+  position:relative;
+  top:10px;
+  cursor: pointer;
+}
+
+.SeeMoreButton:hover{
+  background-image: url('image/SeeMoreButton_h.png');
+}
+
+
 /**slider style**/
 ::-webkit-scrollbar {
   width: 5px;
