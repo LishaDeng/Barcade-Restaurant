@@ -1144,15 +1144,17 @@ body {
   margin-bottom: 10px;
 }
 
-.GameListSearchText{
-  color:#fff;
-  width: 80%;
-  height: 30px;
+.searchbox {
+  color: #fff;
+  background: transparent;
+  border: none;
+  height: 100%;
+  width: 79%;
+  float: left;
+  margin-left: 10px;
+  outline: none;
   font-size: 12pt;
   font-family: "Corbel", serif;
-  padding-left: 15px;
-  padding-top: 20px;
-  position: absolute;
 }
 
 .GameListSearchIcon{
@@ -1163,6 +1165,7 @@ body {
   left: 86%;
   position: absolute;
   margin:5px;
+  float: left;
 }
 
 .GameListSearchIcon:hover{
@@ -1637,8 +1640,8 @@ body {
   margin-top:65px;
 }
 
-.Yellow{
-  color:#02ce02;
+.Yellow a{
+  color:#ffea00;
 }
 
 .googlemapContainer{
