@@ -870,6 +870,9 @@ body {
   position: relative;
 }
 
+.expandableList {
+  transition: height 0.2s ease-in-out
+}
 
 
 .specials{
@@ -1064,6 +1067,37 @@ body {
   width: 255px;
   margin: 0 auto;
 }
+
+.topFoodImageOverlay{
+  background: rgba(255,255,255,.75);
+  text-align: center;
+  padding: 65px 0 66px 0;
+  opacity: 0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+  }
+
+.topFoodImage1:hover .topFoodImageOverlay {
+ opacity:1;
+ cursor: pointer;
+}
+
+.topFoodImage2:hover .topFoodImageOverlay {
+ opacity:1;
+ cursor: pointer;
+}
+
+.topFoodImage3:hover .topFoodImageOverlay {
+ opacity:1;
+ cursor: pointer;
+}
+
+.foodImagehover{
+  font-family:"Impact", serif;
+  font-size: 24pt;
+  color:rgba(0,0,0,.85);
+}
+
 
 .downloadMenuline{
   height:2px;

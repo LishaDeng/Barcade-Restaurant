@@ -9,12 +9,11 @@
 
     if (foodList.hasAttribute("expanded")){
       foodList.removeAttribute("expanded");
-      drinkList.setAttribute("expanded", "true");
-      specialsList.removeAttribute("expanded");
     } else {
-      foodList.setAttribute("expanded", "true");
       drinkList.removeAttribute("expanded");
       specialsList.removeAttribute("expanded");
+      foodList.setAttribute("expanded", "true");
+
     }
   },false);
 
@@ -22,12 +21,11 @@
 
      if (drinkList.hasAttribute("expanded")){
        drinkList.removeAttribute("expanded");
-       foodList.setAttribute("expanded", "true");
-       specialsList.removeAttribute("expanded");
      } else {
-       drinkList.setAttribute("expanded", "true");
        foodList.removeAttribute("expanded");
        specialsList.removeAttribute("expanded");
+       drinkList.setAttribute("expanded", "true");
+
      }
    },false);
 
@@ -35,11 +33,10 @@
 
      if (specialsList.hasAttribute("expanded")){
        specialsList.removeAttribute("expanded");
-       drinkList.setAttribute("expanded", "true");
-       foodList.removeAttribute("expanded");
      } else {
-       specialsList.setAttribute("expanded", "true");
        drinkList.removeAttribute("expanded");
        foodList.removeAttribute("expanded");
+       specialsList.setAttribute("expanded", "true");
+
      }
    },false);
