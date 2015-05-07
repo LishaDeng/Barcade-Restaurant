@@ -601,8 +601,8 @@ body {
   top: 20px;
 }
 
-.SocialMediaButton{
-  height: 50px;
+.SocialMediaButton {
+  height: 50px !important;
   margin: 10px;
   position: relative;
   top: -5px;
