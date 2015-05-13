@@ -1359,10 +1359,19 @@ body {
 .GamesContainer{
   width:100%;
   height:950px;
-  background-image: url('image/games.jpg');
-  background-size: cover;
   position: relative;
   top:10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.GameListRight{
+  width: 17%;
+  margin: 5px;
+}
+
+.GameListRight:hover{
+  transform: scale(1.1);
 }
 
 
@@ -1847,6 +1856,9 @@ body {
 .reservationsucceedButton:hover{
   background-color: #02ce02;
 }
+
+
+
 
 
 /**slider style**/
