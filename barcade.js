@@ -9,6 +9,7 @@
 
     if (foodList.hasAttribute("expanded")){
       foodList.removeAttribute("expanded");
+      drinkList.setAttribute("expanded", "true")
     } else {
       drinkList.removeAttribute("expanded");
       specialsList.removeAttribute("expanded");
